@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="quotes.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="quotes.js"></script>
+
+<title>quotes page</title>
+
+</head>
+
+<body>
+	<h2>these are my favorite quotes from:</h2>
+	<h3>"The score takes care of itself"</h3>
+	
+	<button id="next">next quote</button>
+	<button id="back">back</button>
+
+	<a href="http://www.amazon.com/s/ref=nb_sb_ss_i_0_15?url=search-alias%3Daps&field-keywords=the%20score%20takes%20care%20of%20itself&sprefix=the+score+takes%2Caps%2C164&rh=i%3Aaps%2Ck%3Athe%20score%20takes%20care%20of%20itself">Interested in getting this book?</a>
+	
+	<div id="quote">
+		
+	</div>
+
+	<button id="select">select</button>
+	<button id="unselect">unselect last option</button>
+	<button id="clearall">clear all</button>
+
+	<div>
+		<ul id="selected"></ul>
+	</div>
+
+	<script type="text/javascript">
+		$('#quote').html(quotes[0]);
+		// document.getElementById("quote").innerHTML = quotes[0];
+	</script>
+</body>
+</html>

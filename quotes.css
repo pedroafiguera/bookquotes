@@ -1,0 +1,25 @@
+body
+{
+background-color:#E0FFFF;
+}
+
+h2
+{
+	background-color: #AFEEEE;
+}
+
+#quote {
+	background-color: white;
+	width: 600px;
+	padding: 15px;
+
+}
+
+#selected {
+	background-color: white;
+	width: 600px;
+	padding: 15px;
+	/*height: 300px;*/
+
+}
+
